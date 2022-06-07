@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.img_member {
+    border-radius: 50%;
+    background-color: #66BB6A;
+ 
+}
+
+.scroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 540px  
+}
+
+
+.btnSendSize
+{
+width: 20%;
+ 
+}
+.spacer {
+    height:80px;    /* hardcoded */
+    width:100%;
+}
+ 
+.collapse a {
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+@media only screen and (max-width: 578px) {
+    .xs-center {
+      text-align:center;
+    }
+
+    .xs-img-small {
+        text-align:center;
+        width: calc(40% - 1px);
+       
+      }
+ 
+   .row {
+        border-bottom:1px;
+        border-style: solid;
+        
+       
+    } 
+    
+
+  }

@@ -1,0 +1,31 @@
+.uploadPICtbl {
+    margin-bottom: 10px;
+
+}
+
+.uploadPICtbl td {
+    /*align-content: center;
+    align-items: center;
+    text-align: center;*/
+}
+
+.uploadPICtbl button {
+    display: none;
+    margin: 10px;
+}
+
+.uploadPICtbl img {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+#soldIcon0, #soldIcon1, #soldIcon2, #soldIcon3, #soldIcon4, #soldIcon5 {
+    height: 38px;
+    display: none;
+}
+
+
+/*#btn-sold0 {
+    display: none;
+}*/

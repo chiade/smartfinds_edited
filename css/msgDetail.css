@@ -1,0 +1,75 @@
+.img_member {
+    border-radius: 50%;
+    background-color: #66BB6A;
+ 
+}
+
+.scroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 600px  
+}
+
+
+.btnSendSize
+{
+width: 20%;
+}
+
+.width-80
+{ max-width: calc(80% - 1px);
+/* width:  calc(80% - 1px); */
+}
+
+.spacer {
+    height:69px;    /* hardcoded */
+    width:100%;
+}
+ 
+
+/*
+.card-header{
+    display: flex;             
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+     h4{
+    flex: 1;
+  }  
+*/
+
+.collapse a {
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+@media only screen and (max-width: 578px) {
+    .xs-img-small {
+      text-align:center;
+      width: calc(40% - 1px);
+    }
+
+    /* xs-img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%; 
+    } */
+
+    .scroll {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        height: 200px  
+    }
+ 
+    .p-wrap {
+        width: calc(50% - 1px);  
+       text-overflow: ellipsis;
+       text-align:right;
+   }  
+ 
+  }

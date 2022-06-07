@@ -1,0 +1,116 @@
+ * {
+    box-sizing:border-box;
+}   
+ 
+ /* about us - common */
+
+ h1 { font-size: 60px; }    
+ h2 { font-size: 20px; }
+ h3 { font-size: 18px; }  
+ h4 { font-size: 16px; }
+ h5 { font-size: 14px; }
+ p { font-size : 14px; }
+ 
+ h1, h2, h3, h4, h5 {
+    
+    font-family: 'Signika Negative', sans-serif; 
+ 
+     color:black;
+     
+ }  
+ 
+ .text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+ .spacer {
+    height:69px;    /* hardcoded */
+    width:100%;
+}
+ 
+
+/*  about us - fixed header */
+ /* .fixed-top {
+    position: fixed;
+    left:0px;
+    top:0px;
+
+     background-color: white;
+     z-index:999;   
+    
+  }   */
+
+  /* .about-header{
+      display:flex;
+      width:100%; 
+      align-items:center;
+      height:69px;      hardcoded  
+
+      border-bottom:1px solid seashell;
+      padding : 0 10px;
+      background-color: white ;
+   
+  } */
+
+ 
+/* about us - fixed footer */
+/* .fixed-bottom {
+    position: fixed;
+    left:0px;
+     bottom:0px;
+      background-color: white;  
+     z-index:999;   
+    
+    
+  }  */
+
+  .about-footer{
+    display:flex;
+    width:100%; 
+    align-items:center;
+      height:69px;      /* hardcoded */
+    border-top:1px solid seashell;
+
+    padding : 0 10px;
+  
+}
+
+
+ /* wrapper - to image size in card */
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper:after {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+  .wrapper img {
+  width: auto;
+  height: 100%;
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}  
+/* 
+.wrapper img {
+   background-color: yellow;
+   max-height:120px;
+   width:auto;
+   display: block;
+   object-fit: cover;
+}   */
+
